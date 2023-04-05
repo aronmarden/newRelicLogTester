@@ -16,7 +16,7 @@ async fn send_log(api_key: &str, message: &str) -> Result<(), reqwest::Error> {
         "timestamp": timestamp,
         "message": message,
         "logtype": "rust_logger",
-        "description": "This Log has come from the rust_logger testing tool. Please see <insert github link> for more details",
+        "description": "This Log has come from the rust_logger testing tool. Please see https://github.com/aronmarden/newRelicLogTester for more details on why you are seeing this log",
         "apiKeyUsed": obfuscated_key,
     });
 
