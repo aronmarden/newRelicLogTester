@@ -2,6 +2,8 @@
 
 New Relic Log Tester is a simple command-line tool written in Rust that sends user-inputted messages to the New Relic Log API. It prompts the user for their New Relic API Key on the first launch and then allows the user to send multiple log messages without having to re-enter the API key.
 
+![Screenshot](./images/screenshots/screenshot_1.jpeg)
+
 ## Quick Use
 
 If you are running macOS, head over to the releases tab, download and extract the new_relic_log_tester.tar.gz and simply run the binary in terminal ./new_relic_log_tester
